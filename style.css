@@ -1,0 +1,15 @@
+.main-header{
+	background-image:url("main-header2.jpg");
+	background-size:cover;
+	background-color:rgba(0,0,0,0);
+	background-blend-mode:multiply;
+	padding-bottom:50px;
+}
+.nav ul{
+	padding:0;
+	margin:0
+}
+html,body{
+	padding:0;
+	margin:0;
+}
