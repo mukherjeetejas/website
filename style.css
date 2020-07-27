@@ -11,7 +11,6 @@
 	padding-bottom:40px;
 }
 .nav ul{
-	padding:0;
 	margin:0;
 }
 html,body{
@@ -37,12 +36,13 @@ html,body{
 }
 .band-name{
 	font-family:'monoton',cursive;
-	font-size:2em;
+	font-size:4em;
+	margin:0;
 }
 .band-name-large{
 	font-size:3.5em;
-	font-weight:600;
 	text-align:center;
+	font-weight:600;
 }
 .content-section{
 	margin:4em;
@@ -50,6 +50,7 @@ html,body{
 .container{
 	max-width:900px;
 	margin:0 auto;
+	padding 0 1.5em;
 }
 .section-header{
 	font-family:'rowdies',cursive;
@@ -63,7 +64,7 @@ html,body{
 }
 .main-footer{
 	background-color:#ffd1dc;
-	padding:0.5em 0;
+	padding:0.25em 0;
 }
 .main-footer-container{
 	display:flex;
@@ -72,4 +73,11 @@ html,body{
 .main-footer-container ul{
 	flex-grow:1;
 	text-align:end;
+}
+.footer-nav li{
+	padding:0 0.5em;
+}
+.footer-nav img { 
+	width:30px;
+	height:30px;
 }
