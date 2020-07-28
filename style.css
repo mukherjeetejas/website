@@ -36,7 +36,7 @@ html,body{
 }
 .band-name{
 	font-family:'monoton',cursive;
-	font-size:4em;
+	font-size:2em;
 	margin:0;
 }
 .band-name-large{
@@ -58,6 +58,7 @@ html,body{
 	font-size:3em;
 }
 .about-image{
+	width:250px;
 	float:left;
 	margin-right:20px;
 	border-radius:50%;
